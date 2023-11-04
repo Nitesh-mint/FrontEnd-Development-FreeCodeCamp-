@@ -23,9 +23,8 @@ const result = () => {
 }
 // it doestnot give output instantly`    
 
-Example of the immediately invoked function   
-
-``
+Example of the immediately invoked function    
+`
 // this is the new one 
 const result = (() => {
 	return 50;
