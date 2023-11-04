@@ -18,7 +18,6 @@ Another new thing that is learned is that JS has immediately invoked function
 
 **Example of the normal function**
 ```
-
 //this is normal funciton 
 const result = () => {
 	return 50;
@@ -28,7 +27,6 @@ const result = () => {
 
 **Example of the immediately invoked function**   
 ```
-
 // this is the new one 
 const result = (() => {
 	return 50;
