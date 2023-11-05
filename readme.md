@@ -33,3 +33,7 @@ const result = (() => {
 })();
 // it gives output without instantly
 ``` 
+
+## Day 4
+Learned about Loops, conditionals and switch cases
+SOlved 10 problems from Codewars
