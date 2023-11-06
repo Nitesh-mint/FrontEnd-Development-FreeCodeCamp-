@@ -37,3 +37,49 @@ const result = (() => {
 ## Day 4
 Learned about Loops, conditionals and switch cases
 SOlved 10 problems from Codewars
+
+## Day 5
+Solved total of 22 problems in CodeWars
+Learned about built-in Methods in javascript!
+**Some Example of CallBack functions in js**
+```
+function multiplier(num){ //a random function
+	return num * 5;
+}
+
+function mainFunction(num, multiplier){ //passing function as a parameter
+	return multiplier(num);
+}
+
+```
+More simply we can use callback function as 
+```
+function mainFunction(num, function(num){
+	return num*5;
+})
+
+```
+```
+function mainFunction(num, (num) =>{
+	return num*5;
+})
+
+```
+
+```
+function mainFunction(num, num =>num*2;)
+
+```
+
+**Real use case of Callback function in array.map method**
+```
+const myArray = [1, 2, 3, 4, 5];
+
+//function to return something
+function myCustomCallBackFunction(item){
+	return item * 2;
+}
+
+const newArray = myArray.map(myCustomCallBackFunction); // returns newArray with the doubled value of the original array
+
+```
