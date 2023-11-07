@@ -83,3 +83,7 @@ function myCustomCallBackFunction(item){
 const newArray = myArray.map(myCustomCallBackFunction); // returns newArray with the doubled value of the original array
 
 ```
+
+## Day 6
+
+Learned about String and Date objects in Javascript! Learned about different date methods to work with it.
