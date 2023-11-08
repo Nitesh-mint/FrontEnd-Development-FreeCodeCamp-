@@ -87,3 +87,8 @@ const newArray = myArray.map(myCustomCallBackFunction); // returns newArray with
 ## Day 6
 
 Learned about String and Date objects in Javascript! Learned about different date methods to work with it.
+
+
+## Day 7
+
+Learned about basics of RegEx, String Methods and some Array methods 
