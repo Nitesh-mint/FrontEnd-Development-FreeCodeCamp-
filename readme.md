@@ -92,3 +92,7 @@ Learned about String and Date objects in Javascript! Learned about different dat
 ## Day 7
 
 Learned about basics of RegEx, String Methods and some Array methods 
+
+## Day 8
+
+Solved one itermediate problem from codewars!
