@@ -6,7 +6,7 @@ Learning javascript and css from a youtube video of FreeCodeCamp.
 Learned about differences between `let`, `var`, `const` 
 
 ## Day 2
-Learned about different datatypes  like `string` `arrays` `objects` etc
+Learned about different data types  like `string` `arrays` `objects` etc
 
 
 ## Day 3
@@ -31,7 +31,7 @@ const result = () => {
 const result = (() => {
 	return 50;
 })();
-// it gives output without instantly
+// it gives output without calling it but instantly
 ``` 
 
 ## Day 4
@@ -96,3 +96,6 @@ Learned about basics of RegEx, String Methods and some Array methods
 ## Day 8
 
 Solved one itermediate problem from codewars!
+
+## Day 9
+Learned about DOM like : selecting tag elements, Node Methods etc (just some references!)
