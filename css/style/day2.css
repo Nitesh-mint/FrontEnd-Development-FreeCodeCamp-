@@ -1,0 +1,35 @@
+/* the highest precedence among the following selector is id second is class and third is the tag  */
+
+h2{
+    color: red;
+}
+
+.h2-first{
+    color: green;
+}
+
+#h2-id{
+    color: yellow;
+}
+
+#link-selector:visited{
+    color: red;
+}
+
+/* example of multiple selector */
+h2 + a {
+    color:aqua;
+}
+
+/* ol li {
+    color:red;
+} */
+
+ol > li {
+    color:red;
+}
+
+/* every button within the same parent tag is affected by the below code */
+textarea ~ button {
+    color: red;
+}

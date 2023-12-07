@@ -108,3 +108,9 @@ Learned about DOM like : selecting tag elements, Node Methods etc (just some ref
 
 ### Day 1
 Basics of css starting with selectors `id`, `class`, `tag` etc.
+
+### Day 2
+
+The selector with the highest precedence is `id`, second is `class` and the lowest is the lowest is `tag`. **Note**: `inline` is the highest which overrides all the selectors.
+
+Learned some selectors like `hover` `>` `~` etc.
