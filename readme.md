@@ -95,7 +95,16 @@ Learned about basics of RegEx, String Methods and some Array methods
 
 ## Day 8
 
-Solved one itermediate problem from codewars!
+Solved one intermediate problem from CodeWars!
 
 ## Day 9
 Learned about DOM like : selecting tag elements, Node Methods etc (just some references!)
+
+## -------------------------------------------------------------------------------------------------------
+
+## CSS starting 
+30 minutes of daily css from a youtube video of FreeCodeCamp
+[Course Link](https://youtu.be/1Rs2ND1ryYc?si=OwTQzddH30kDSTKm)
+
+### Day 1
+Basics of css starting with selectors `id`, `class`, `tag` etc.
