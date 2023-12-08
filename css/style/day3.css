@@ -1,0 +1,23 @@
+/* selects h2 elements with the class of h2-first */
+h2[class=h2-first] {
+    color: blue;
+}
+
+/* selecting something that starts(^), ends($) , contains(*) */
+/* applies to anything that has the path starting with the ../images/ */
+img[src^="../images/"] {
+    border: 10px solid black;
+}
+
+/* selects classes that contains white-spaces  */
+h2[class~=another-class]{
+    background-color: silver;
+}
+
+/* coloring basics */
+#title{
+    color: rgb(51, 4, 92);
+}
+.sub-title{
+    color: rgb(132, 29, 222);
+}
