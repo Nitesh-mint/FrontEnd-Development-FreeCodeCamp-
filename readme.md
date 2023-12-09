@@ -114,3 +114,14 @@ Basics of css starting with selectors `id`, `class`, `tag` etc.
 The selector with the highest precedence is `id`, second is `class` and the lowest is the lowest is `tag`. **Note**: `inline` is the highest which overrides all the selectors.
 
 Learned some selectors like `hover` `>` `~` etc.
+
+### Day 3
+
+Learned colors and using color picker to match the color we need for our page!
+
+### Day 4
+
+Learned about the background image and url. How to cover whole background without repeating the image!
+rgba() function can also be used to control the opacity eg: `rgba(0,0,0,0.1)` will set the opacity to 10% 0-1(0 - 100%)
+
+Linear-gradients and circular-gradients!
