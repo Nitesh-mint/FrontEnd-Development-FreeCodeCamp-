@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E5</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            overflow: hidden;
+            background-color:green;
+            color: white;
+        }
+        li{
+            list-style-type:none;
+            display: inline;
+            margin-right: 20px;
+        }
+        li > ul {
+            display: none;
+        }
+        li:hover ul{
+            display: block;
+            position: absolute;
+            left: 200px;
+            background-color: green;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Products
+            <ul>
+                <li>Engineering</li>
+                <li>Telecom</li>
+                <li>Energy</li>
+                <li>Finance</li>
+                <li>Consultancy</li>
+            </ul>
+        </li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+</body>
+</html>
