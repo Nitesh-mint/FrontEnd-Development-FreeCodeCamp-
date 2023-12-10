@@ -125,3 +125,17 @@ Learned about the background image and url. How to cover whole background withou
 rgba() function can also be used to control the opacity eg: `rgba(0,0,0,0.1)` will set the opacity to 10% 0-1(0 - 100%)
 
 Linear-gradients and circular-gradients!
+
+### Day 5
+
+Units are of two types: absolute and relative, absolute is not depended to any other thing like `px , cm , mm`
+Relative are like `%` which is depended on something. 
+**Example of Relative unit**
+```
+
+.calss-selector{
+	width: 400px; #absolute unit
+	height: 70%  #will only take 70% of the selector size. Which is good for responsive webiste!
+}
+
+```
