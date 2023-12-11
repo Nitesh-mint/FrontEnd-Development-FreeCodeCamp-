@@ -139,3 +139,8 @@ Relative are like `%` which is depended on something.
 }
 
 ```
+
+### Day 6
+
+Fonts, how to add external fonts and add backup fonts too.
+Box Model which is one of the import topic of CSS, it helps to make our website look the way we want it to look.Box model has 4 topics `content`, `padding` , `border`, `margin`.
