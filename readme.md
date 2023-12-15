@@ -133,7 +133,7 @@ Relative are like `%` which is depended on something.
 **Example of Relative unit**
 ```
 
-.calss-selector{
+.class-selector{
 	width: 400px; #absolute unit
 	height: 70%  #will only take 70% of the selector size. Which is good for responsive webiste!
 }
@@ -144,3 +144,9 @@ Relative are like `%` which is depended on something.
 
 Fonts, how to add external fonts and add backup fonts too.
 Box Model which is one of the import topic of CSS, it helps to make our website look the way we want it to look.Box model has 4 topics `content`, `padding` , `border`, `margin`.
+
+## Day 7 
+Learned about the box model.
+
+## Day 8
+Learned about flexBox. It is a container which will allow all the other element inside it more flexible and easy to make responsive. To make a Flex box we need to add `display:flex` property to the container!
