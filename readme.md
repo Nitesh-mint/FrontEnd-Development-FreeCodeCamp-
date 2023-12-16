@@ -22,7 +22,7 @@ Another new thing that is learned is that JS has immediately invoked function
 const result = () => {
 	return 50;
 }
-// it doestnot give output instantly
+// it does not give output instantly
 ```    
 
 **Example of the immediately invoked function**   
@@ -150,3 +150,9 @@ Learned about the box model.
 
 ## Day 8
 Learned about flexBox. It is a container which will allow all the other element inside it more flexible and easy to make responsive. To make a Flex box we need to add `display:flex` property to the container!
+
+## Day 9
+Learned about the fast and short flex property : `flex: grow shrink basis`.
+`justify-content:center;` on the parent container centers the child horizontally
+`align-self:center;` on the child element centers the child vertically!PERFECTLY CENTERED
+Started to learn about Grid in CSS. `grid-template-columns` and `grid-template-rows`
