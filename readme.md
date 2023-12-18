@@ -156,3 +156,6 @@ Learned about the fast and short flex property : `flex: grow shrink basis`.
 `justify-content:center;` on the parent container centers the child horizontally
 `align-self:center;` on the child element centers the child vertically!PERFECTLY CENTERED
 Started to learn about Grid in CSS. `grid-template-columns` and `grid-template-rows`
+
+## Day 10
+Played and completed [FlexBox Froggy](https://flexboxfroggy.com/) and [FlexBox Defense](http://www.flexboxdefense.com/). Completed all the problems!
