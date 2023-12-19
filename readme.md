@@ -159,3 +159,11 @@ Started to learn about Grid in CSS. `grid-template-columns` and `grid-template-r
 
 ## Day 10
 Played and completed [FlexBox Froggy](https://flexboxfroggy.com/) and [FlexBox Defense](http://www.flexboxdefense.com/). Completed all the problems!
+
+## Day 11
+Completed the Frontend Mentor Challenge. Learned a lot of new things completing the challenge!. Flex box **
+
+## Day 12 
+Started Grid again which was initially at day 9. Learned about the `grid-row` and `grid-column` properties which is used to specify how much space the gid element will take both row and column!
+**Short Hand Property for the grid-row and column**
+`grid-area:row-start / column-start / span-area-row / span-area-column`
