@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-left{
+    color: white;
+    padding: 20px;
+    background-color: rgb(46, 43, 233);
+    border-radius: 0 0 19px 19px;
+}
+.main-right{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.main-left .circle{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(17, 37, 212);
+    border-radius: 50%;
+    display: inline;
+}
+
+@media (min-width: 375px){
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        margin:0 auto;
+    }
+    .main-left{
+        flex-basis: 50%;
+    }
+    .main-right{
+        flex-basis: 50%;
+    }
+}
