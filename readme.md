@@ -167,3 +167,4 @@ Completed the Frontend Mentor Challenge. Learned a lot of new things completing 
 Started Grid again which was initially at day 9. Learned about the `grid-row` and `grid-column` properties which is used to specify how much space the gid element will take both row and column!
 **Short Hand Property for the grid-row and column**
 `grid-area:row-start / column-start / span-area-row / span-area-column`
+pp
