@@ -8,22 +8,60 @@
     flex-direction: column;
 }
 .main-left{
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     padding: 20px;
     background-color: rgb(46, 43, 233);
-    border-radius: 0 0 19px 19px;
+    border-radius: 0 0 30px 30px;
+    justify-content: center;
 }
 .main-right{
     background-color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin: 25px;
+}
+
+.main-left h3{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
 }
 
 .main-left .circle{
-    height: 50px;
-    width: 50px;
+    margin-top: 25px;
+    height: 130px;
+    width: 130px;
     background-color: rgb(17, 37, 212);
     border-radius: 50%;
     display: inline;
+}
+
+.button-group{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main-right p{
+    margin-left: 5px;
+}
+
+.main-right .continue{
+    margin-top: 10px;
+    color: white;
+    padding: 15px;
+    border-radius:40px;
+    text-align: center;
+    background-color: rgb(48, 59, 90);
 }
 
 @media (min-width: 375px){
