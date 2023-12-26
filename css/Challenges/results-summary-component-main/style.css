@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .main-container{
@@ -23,22 +24,22 @@
 }
 
 .main-left h3{
+    margin-top: 10px;
+    flex-basis: 100%;
     text-align: center;
-    width: 100%;
-    justify-content: center;
 }
 
 .main-left .circle{
     margin-top: 25px;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     background-color: rgb(17, 37, 212);
     border-radius: 50%;
     display: inline;
 }
 
 .button-group{
-    margin-top: 15px;
+    /* margin-top: 15px; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -64,6 +65,10 @@
     background-color: rgb(48, 59, 90);
 }
 
+body p{
+    font-size: 13px;
+}
+
 @media (min-width: 375px){
     .main-container{
         display: flex;
@@ -72,9 +77,11 @@
         margin:0 auto;
     }
     .main-left{
+        border-radius: 30px 30px;
         flex-basis: 50%;
     }
     .main-right{
         flex-basis: 50%;
     }
+
 }
