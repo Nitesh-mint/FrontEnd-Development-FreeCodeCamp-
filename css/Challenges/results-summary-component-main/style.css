@@ -36,6 +36,7 @@
     background-color: rgb(17, 37, 212);
     border-radius: 50%;
     display: inline;
+    color: white;
 }
 
 .button-group{
