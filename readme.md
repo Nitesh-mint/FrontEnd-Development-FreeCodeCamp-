@@ -167,4 +167,24 @@ Completed the Frontend Mentor Challenge. Learned a lot of new things completing 
 Started Grid again which was initially at day 9. Learned about the `grid-row` and `grid-column` properties which is used to specify how much space the gid element will take both row and column!
 **Short Hand Property for the grid-row and column**
 `grid-area:row-start / column-start / span-area-row / span-area-column`
-pp kk ll
+
+## Day 13 
+Starting Transition Property! 
+We use this property especially  with the pseudo selector, for example `hover`etc.
+```
+.button{
+	background: pink;
+	transition: background 1s ease;
+}
+.button:hover{
+	background: yellow;
+}
+```
+Above code transitions the background of the button to yellow in 1 second while hovering!
+
+**Translate**: is used to change the position of the element.We use `translate(x-axis, y-axis)` paired with the `transform`. EG:
+```
+.button{
+	transform: translate(20px, 20px);
+}
+``` 
