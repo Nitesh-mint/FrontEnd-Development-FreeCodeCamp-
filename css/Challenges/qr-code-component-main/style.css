@@ -3,20 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 .main-card{
-    border: 1px solid red;
-    max-width: 50%;
+    margin-top: 300px !important;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
-}
-.main-card .top img{
-    display: block;
-}
-.main-card .top{
-    flex-basis: 50%;
-}
-.main-card .bottom{
-    flex-basis: 50%;
+    max-width: 50vw;
+    border: 1px solid black;
+    border-radius: 20px;
 }
