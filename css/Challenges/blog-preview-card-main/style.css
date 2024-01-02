@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Figtree:wght@600;800&family=Outfit:wght@400;700&display=swap');
+
+*{
+    font-family: 'Figtree', 'san-serif';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-card{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 1rem;
+    box-shadow: 6px 5px black;
+}
+
+.main-card #top-image{
+    width: 100%;
+    border-radius: .75rem;
+}
+.main-card #profile{
+    width: 2rem;
+    padding-right: 10px;
+}
+
+.main-card #button{
+    color: black;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 10px;
+    margin-top: 18px;
+    border-radius: 4px;
+}
+
+.main-card p{
+    font-size: 0.75em;
+    padding-top: 10px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    text-align: start;
+}
+
+.main-card .profile-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main-card .profile-container span{
+    font-weight: 800;
+}
+
+.main-card h3{
+    padding-top: 15px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.main-card h3:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.main-card:hover{
+    box-shadow: 10px 10px black;
+}
+
+.main-card #pub{
+    color: black;
+}
+
+.main-card .description{
+    font-size: 0.8em;
+}
+
+@media (max-width:375px){
+    .main-card{
+        width: 80vw;
+    }   
+}
