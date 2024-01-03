@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Figtree:wght@600;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Figtree:wght@600;800&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main_card{
+    display: flex;
+    width: 40rem;
+    height: 30rem;
+    /* border-radius: 0.5rem 0.5rem 0.5rem 0.5rem; */
+}
+
+
+.main_card img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    object-fit: cover;
+}
+
+.left_container{
+    flex-basis: 50%;
+}
+
+.main_card .right_container{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.main_card .right_container .price_group{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.product_price{
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.product_description{
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 170%;
+    padding-top: 10px;
+    text-align: start;
+}
+
+.product_type{
+    letter-spacing: 5px;
+    text-transform: uppercase;  
+    color: hsl(228, 12%, 48%);
+}
+
+.add_to_cart{
+    padding: 1rem;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: .5rem;
+    text-align: center;
+}
+.product_name{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 90%;
+}
+
+.price_group{
+    padding-top: 10px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.product_discount{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+@media (max-width:375px){
+    .main_card{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main_card .left_container img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+    /* .left_container , .right_container {
+        flex-basis: 100% !important;
+    } */
+}
