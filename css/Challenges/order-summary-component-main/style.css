@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 33.333vw;
+    height: 80vh;
+    border-radius: 1rem;
+}
+
+.top{
+    flex-basis: 50%;
+    height: 35%;
+    margin-bottom: 3rem;
+    border-radius: .90rem .90rem 0rem 0rem;
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bottom{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.plan{
+    padding: 2rem;
+    background-color: red;
+}
+
+@media (max-width:375px){
+    .main-card{
+        width: 80vw;
+    }
+}
