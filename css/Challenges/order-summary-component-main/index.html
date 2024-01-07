@@ -12,30 +12,35 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center;  margin-top: 30px;}
+    .attribution a { color: hsl(228, 45%, 44%);}
   </style>
 </head>
 <body>
-  <div class="main-card"> 
-    <div class="top">
-    </div>
-    <div class="bottom">
-      <h3>Order Summary</h3>
-
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-      device anywhere you like!</p>
-      
-      <div class="plan">
-        Annual Plan
-        $59.99/year
-
-        Change
+  <main>
+    <div class="main-card"> 
+      <img src="./images/illustration-hero.svg" class="plan_image">
+      <div class="bottom">
+        <h3>Order Summary</h3>
+  
+        <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+        
+        <div class="plan">
+          <img src="./images/icon-music.svg" alt="music icon">
+          <div class="plan_detail">
+            <div class="plan__price">
+              <p class="annual_plan">Annual Plan</p>
+              <p class="price_year">$59.99/year</p>
+            </div>
+            <p><a href="#">Change</a></p>
+          </div>
+        </div>
+        <p class="payment"><a href="#">Proceed to Payment</a></p>
+        <p class="cancel">Cancel Order</p>
       </div>
-      <p><a href="#">Proceed to Payment</a></p>
-      <p>Order</p>
     </div>
-  </div>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Nitesh</a>.
