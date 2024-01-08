@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 25%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5{
+    overflow-wrap: break-word;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+
+p,h3{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca';
+}
+
+main{
+    display: flex;
+    max-width: 70vw;
+}
+
+.first_card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: .5rem 0 0 .5rem;
+    padding: 2.5rem;
+    gap: 2rem;
+}
+.second_card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5rem;
+    gap: 2rem;
+}
+
+.third_card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 .5rem .5rem 0;
+    padding: 2.5rem;
+    gap: 2rem;
+}  
+
+button{
+    border: none;
+    margin-top: 3rem;
+    padding: .9rem;
+    border-radius: 1.5rem;
+    width: 60%;
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+@media (max-width: 414px){
+    main{
+        flex-direction: column;
+        height: 80vh;
+        width: 90vw;
+    }
+    .first_card{
+        border-radius: .5rem .5rem 0 0;
+    }
+    .third_card{
+        border-radius: 0 0 .5rem .5rem;
+    }   
+}
