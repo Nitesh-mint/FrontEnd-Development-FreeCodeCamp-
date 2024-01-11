@@ -190,3 +190,19 @@ Above code transitions the background of the button to yellow in 1 second while 
 ``` 
 ## Day 17
 Been doing challenges of FrontEnd Mentor for 4 days. Learned some problem solving skills!
+
+## Day 26
+Playing a game of GIRD to be more comfortable with the css GRID.
+
+### Things to note in GRID
+**grid-column-start**: specify where(column) to start the grid from
+when we use this property without specifying the end of the column it will end after last value we give. eg: 5 cha bhane it will end in column 6. We can specify the end to make it more flexible using:
+**grid-column-end**: specify where(column) to end the gird.We can also use -1 to end the column to the last.
+**Note**: we can also start the column from higher column to lower. eg: start: 5 and end: 1;
+we can also use shorthand property `grid-column` which takes values as start/end;
+
+There a god level property to use all these elements shorthand i.e is `grid-area`
+`
+grid-area: grid-row-start/ grid-column-start/ grid-row-end/ grid-column-end`
+
+`order` is used to set the order of the item

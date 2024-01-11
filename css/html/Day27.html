@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .garden{
+            height: 80%;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-rows: repeat(2, 50%);
+            gap: .5rem;
+            padding: .5rem;
+        }
+        .red{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background-color: red;
+            order: 2;
+            grid-area: 2/1/2/ span 2;
+            border-radius: 0 0 0 1rem;
+        }
+        .blue{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background-color: blue;
+            order: 3;
+        }
+        .purple{
+            display: flex;
+            text-align: center;
+            color: white;
+            background-color: purple;
+            grid-area: 1/1/1/ span 3;
+            order:0;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1rem 0 0 0;
+        }
+        .black{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background-color: black;
+            grid-area: 1/4/3;
+            order: 1;
+            border-radius: 0 1rem 1rem 0;
+        }
+
+        @media (max-width :576px){
+            .garden{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column  ;
+            }
+
+            .red, .black, .purple, .blue{
+                flex-basis: 25%;
+                border-radius: 1rem;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="garden">
+        <div class="purple">
+            <p>This is purple box</p>
+        </div>  
+        <div class="blue">
+            <p>This is blue box</p>
+        </div> 
+        <div class="red">
+            <p>This is red box</p>
+        </div> 
+        <div class="black">
+            <p>This is black box</p>
+        </div> 
+    </div>
+</body>
+</html>

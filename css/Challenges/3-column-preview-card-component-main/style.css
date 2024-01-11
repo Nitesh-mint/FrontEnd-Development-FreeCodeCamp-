@@ -49,7 +49,8 @@ body{
 
 main{
     display: flex;
-    max-width: 70vw;
+    max-width: 80vw;
+    overflow: auto;
 }
 
 .first_card{
@@ -94,11 +95,11 @@ button{
 .btn-3{
     color: hsl(179, 100%, 13%);
 }
-@media (max-width: 414px){
+@media (max-width: 576px){
     main{
         flex-direction: column;
-        height: 80vh;
-        width: 90vw;
+        margin: 3rem 2rem;
+        /* height: 80vh; */
     }
     .first_card{
         border-radius: .5rem .5rem 0 0;
