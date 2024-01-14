@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5{
+    overflow-wrap: break-word;   
+}
+p{
+    font-size: 13px;
+}
+
+/* Main css start */
+body{
+    font-family: 'Barlow Semi Condensed';
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main{
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 50%);
+    gap: 1rem;
+}
+.card-1, .card-2, .card-3, .card-4, .card-5{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.2);
+    gap: 1rem;
+
+}
+.card-1{
+    grid-area: 1 / 1 / 1 / span 2;
+    background-color: #7541c8;
+    color: white;
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.card-2{
+    background-color: #48556a;
+    color: white;
+
+}
+.card-3{
+    grid-area: 2 /  1 / 2 / 1;
+    background-color: #ffff;
+}
+.card-4{
+    grid-area: 2 / 2 / 2 / span 2;
+    background-color: #19212e;
+    color: white;
+}
+.card-5{
+    grid-area: 1 / 4 / span 2 / 4;
+    background-color: #ffff;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-top .card-top__person{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.review{
+    font-size: 25px;
+    color: #ffff;
+}
+.review-detail{
+    color: #cfcfcf;
+}
+
+@media (max-width: 575px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
