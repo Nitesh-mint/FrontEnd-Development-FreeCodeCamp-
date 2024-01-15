@@ -29,7 +29,7 @@ body{
 
 main{
     width: 80vw;
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(2, 50%);
@@ -94,9 +94,11 @@ img{
     color: #cfcfcf;
 }
 
+
 @media (max-width: 575px) {
     main{
         display: flex;
         flex-direction: column;
+        height: 80vh;
     }
 }
