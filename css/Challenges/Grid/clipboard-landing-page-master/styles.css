@@ -101,6 +101,7 @@ body{
 }
 
 .features img{
+    width: fit-content;
     position: relative;
     left: -3.5%;
 }

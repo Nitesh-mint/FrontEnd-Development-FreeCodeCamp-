@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Poppins';
+    font-weight: 600px;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    color: white;
+}
+
+main{
+    padding: 2rem;
+}
+
+#logo{
+    display: block;
+    max-width: 40%;
+    margin: 0 0 3.5rem 0;
+}
+
+.responsive-image{
+    display: block;
+    width: 100%;
+}
+
+.page-information{
+    /* padding: 0.8rem; */
+    margin-top: 1.5rem;
+    text-align: center;
+    gap: 1rem;
+}
+.page-information p{
+    font-family: 'Open sans';
+    font-weight: 400;
+    margin: .2rem;
+    padding: 1rem 0 1rem 0;
+    line-height: 1.5rem;
+    /* text-align: center; */
+    /* white-space: break-spaces; */
+}
+
+.page-information button{
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 60%;
+    min-width: 100px;
+    border: none;
+}
+
+@media(min-width: 376px){
+    h2{
+        font-size: 3rem;
+    }
+    body{
+        background-image: url('./images/bg-desktop.svg');
+        background-size: 100%;
+    }
+    .page-information{
+        display: flex;
+    }
+    .page-info-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+    }
+}
